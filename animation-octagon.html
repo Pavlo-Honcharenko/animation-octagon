@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+	<div class="wrapper-animation-octagon">
+		<div class="animation-octagon">
+			<img class="img-octagons" src="./img/octagon.svg" alt="">
+			<div class="line-blue-1"></div>
+			<div class="line-blue-2"></div>
+			<div class="line-blue-3"></div>
+			<div class="line-blue-4"></div>
+			<div class="line-blue-5"></div>
+			<div class="line-blue-6"></div>
+			<div class="line-yellow-1"></div>
+			<div class="line-yellow-2"></div>
+			<div class="line-yellow-3"></div>
+			<div class="line-yellow-4"></div>
+			<div class="line-yellow-5"></div>
+			<div class="line-yellow-6"></div>
+			<div class="line-violet-1"></div>
+			<div class="line-violet-2"></div>
+			<div class="line-violet-3"></div>
+			<div class="line-violet-4"></div>
+			<div class="line-violet-5"></div>
+		</div>
+	</div>
+
+
+	<style>
+		.wrapper-animation-octagon {
+			width: 400px;
+			max-width: 100%;
+		}
+		.animation-octagon {
+			box-sizing: border-box; 
+			position: relative;
+			display: block;
+			width: 100%;
+			max-width: 100%;
+			padding-bottom: 69%;
+		}
+		.animation-octagon img {
+			position: absolute;
+			display: block;
+			max-width: 100%;
+		}
+		.img-octagons {
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+		}
+		.line-blue-1,  .line-blue-2,  .line-blue-3,  .line-blue-4,  .line-blue-5,  .line-blue-6,  .line-blue-7,  .line-yellow-1,  .line-yellow-2,  .line-yellow-3,  .line-yellow-4,  .line-yellow-5,  .line-yellow-6,  .line-violet-1,  .line-violet-2,  .line-violet-3,  .line-violet-4,  .line-violet-5 {
+			position: absolute;
+			height: 3px;
+			border-radius: 1px;
+		}
+		.line-blue-1,  .line-blue-2,  .line-blue-3,  .line-blue-4,  .line-blue-5,  .line-blue-6,  .line-blue-7 {
+			background-color: #0099DC;
+			
+		}
+		.line-yellow-1,  .line-yellow-2,  .line-yellow-3,  .line-yellow-4,  .line-yellow-5,  .line-yellow-6 {
+			background-color: #e3b358;
+		}
+		.line-violet-1,  .line-violet-2,  .line-violet-3,  .line-violet-4,  .line-violet-5 {
+			background-color: #795d9b;
+		}
+		.line-blue-1 {
+			width: 33.7%;
+				top: 65.2%;
+				left: 17.6%;
+				transform: rotate(40deg);
+			animation: lineblue1Animation 6s ease-in infinite;
+		}
+		@keyframes lineblue1Animation {
+			0% {
+				width: 33.7%;
+				top: 65.2%;
+				left: 17.6%;
+				transform: rotate(40deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 35.7%;
+				top: 76.5%;
+				left: 29.6%;
+				transform: rotate(0deg);
+				opacity: 1;
+			}
+			33% {
+				width: 35.7%;
+				top: 76.5%;
+				left: 29.6%;
+				transform: rotate(0deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 18.7%;
+				top: 79.5%;
+				left: 29.9%;
+				transform: rotate(35deg);
+				opacity: 1;
+			}
+			66% {
+				width: 18.7%;
+				top: 79.5%;
+				left: 29.9%;
+				transform: rotate(35deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 33.7%;
+				top: 65.2%;
+				left: 17.6%;
+				transform: rotate(40deg);
+				opacity: 1;
+			}
+			100% {
+				width: 33.7%;
+				top: 65.2%;
+				left: 17.6%;
+				transform: rotate(40deg);
+			}
+		}
+		.line-blue-2 {
+			width: 18.5%;
+				top: 79%;
+				left: 47%;
+				transform: rotate(-9deg);
+			animation: lineblue2Animation 6s ease-in infinite;
+		}
+		@keyframes lineblue2Animation {
+			0% {
+				width: 18.5%;
+				top: 79%;
+				left: 47%;
+				transform: rotate(-9deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 20.1%;
+				top: 63%;
+				left: 59.4%;
+				transform: rotate(-67.5deg);
+				opacity: 1;
+			}
+			33% {
+				width: 20.1%;
+				top: 63%;
+				left: 59.4%;
+				transform: rotate(-67.5deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 36.5%;
+				top: 69%;
+				left: 42%;
+				transform: rotate(-45deg);
+				opacity: 1;
+			}
+			66% {
+				width: 36.5%;
+				top: 69%;
+				left: 42%;
+				transform: rotate(-45deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 18.5%;
+				top: 79%;
+				left: 47%;
+				transform: rotate(-9deg);
+				opacity: 1;
+			}
+			100% {
+				width: 18.5%;
+				top: 79%;
+				left: 47%;
+				transform: rotate(-9deg);
+			}
+		}
+		.line-blue-3 {
+			width: 19%;
+			top: 63%;
+			left: 53.1%;
+			transform: rotate(-109deg);
+			animation: lineblue3Animation 6s ease-in infinite;
+		}
+		@keyframes lineblue3Animation {
+			0% {
+				top: 63%;
+				width: 19%;
+				left: 53.1%;
+				transform: rotate(-109deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 17.2%;
+				top: 40.8%;
+				left: 58%;
+				transform: rotate(-138deg);
+				opacity: 1;
+			}
+			33% {
+				width: 17.2%;
+				top: 40.8%;
+				left: 58%;
+				transform: rotate(-138deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 18.4%;
+				top: 38%;
+				left: 58.8%;
+				transform: rotate(-124deg);
+				opacity: 1;
+			}
+			66% {
+				width: 18.4%;
+				top: 38%;
+				left: 58.8%;
+				transform: rotate(-124deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 19%;
+				top: 63%;
+				left: 53.1%;
+				transform: rotate(-109deg);
+				opacity: 1;
+			}
+			100% {
+				width: 19%;
+				top: 63%;
+				left: 53.1%;
+				transform: rotate(-109deg);
+			}
+		}
+		.line-blue-4 {
+			width: 15%;
+			top: 27.2%;
+			left: 47.9%;
+			transform: rotate(93deg);
+			opacity: 1;
+			animation: lineblue4Animation 6s ease-in infinite;
+		}
+		@keyframes lineblue4Animation {
+			0% {
+				width: 12.2%;
+				top: 41%;
+				left: 53.7%;
+				transform: rotate(93deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 0.4%;
+				top: 32.2%;
+				left: 59.9%;
+				transform: rotate(93deg);
+				opacity: 1;
+			}
+			33% {
+				width: 0.4%;
+				top: 32.2%;
+				left: 59.9%;
+				transform: rotate(93deg);
+			}
+			33.01% {
+				transform: rotate(0deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 15.5%;
+				top: 25.9%;
+				left: 47.4%;
+				transform: rotate(6deg);
+				opacity: 1;
+			}
+			66% {
+				width: 15.5%;
+				top: 25.9%;
+				left: 47.4%;
+				transform: rotate(6deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 12.2%;
+				top: 41%;
+				left: 53.7%;
+				transform: rotate(93deg);
+				opacity: 1;
+			}
+			100% {
+				width: 12.2%;
+				top: 41%;
+				left: 53.7%;
+				transform: rotate(93deg);
+			}
+		}
+		.line-blue-5 {
+			width: 16.4%;
+			top: 25%;
+			left: 45.6%;
+			transform: rotate(36.9deg);
+			animation: lineblue5Animation 6s ease-in infinite;
+		}
+		@keyframes lineblue5Animation {
+			0% {
+				width: 16.4%;
+				top: 25%;
+				left: 45.6%;
+				transform: rotate(36.9deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 19.25%;
+				top: 22%;
+				left: 44.3%;
+				transform: rotate(47.8deg);
+				opacity: 1;
+			}
+			33% {
+				width: 19.25%;
+				top: 22%;
+				left: 44.3%;
+				transform: rotate(47.8deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 18.5%;
+				top: 23.2%;
+				left: 28.9%;
+				transform: rotate(7deg);
+				opacity: 1;
+			}
+			66% {
+				width: 18.5%;
+				top: 23.2%;
+				left: 28.9%;
+				transform: rotate(7deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 16.4%;
+				top: 25%;
+				left: 45.6%;
+				transform: rotate(36.9deg);
+				opacity: 1;
+			}
+			100% {
+				width: 16.4%;
+				top: 25%;
+				left: 45.6%;
+				transform: rotate(36.9deg);
+			}
+		}
+		.line-blue-6 {
+			width: 34%;
+			top: 34%;
+			left: 17%;
+			transform: rotate(-39deg);
+			animation: lineblue6Animation 6s ease-in infinite;
+		}
+		@keyframes lineblue6Animation {
+			0% {
+				width: 34%;
+				top: 34%;
+				left: 17%;
+				transform: rotate(-39deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 49%;
+				top: 44%;
+				left: 13.6%;
+				transform: rotate(-68deg);
+				opacity: 1;
+			}
+			33% {
+				width: 49%;
+				top: 44%;
+				left: 13.6%;
+				transform: rotate(-68deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 34.8%;
+				top: 47%;
+				left: 12.6%;
+				transform: rotate(-95deg);
+				opacity: 1;
+			}
+			66% {
+				width: 34.8%;
+				top: 47%;
+				left: 12.6%;
+				transform: rotate(-95deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 34%;
+				top: 34%;
+				left: 17%;
+				transform: rotate(-39deg);
+				opacity: 1;
+			}
+			100% {
+				width: 34%;
+				top: 34%;
+				left: 17%;
+				transform: rotate(-39deg);
+			}
+		}
+
+
+
+		.line-yellow-1 {
+			width: 18.6%;
+			top: 63%;
+			left: 17.9%;
+			transform: rotate(81deg);
+			animation: lineYellow1Animation 6s ease-in infinite;
+		}
+		@keyframes lineYellow1Animation {
+			0% {
+				width: 18.6%;
+				top: 63%;
+				left: 17.9%;
+				transform: rotate(81deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 19.6%;
+				top: 55.8%;
+				left: 19.9%;
+				transform: rotate(26deg);
+				opacity: 1;
+			}
+			33% {
+				width: 19.6%;
+				top: 55.8%;
+				left: 19.9%;
+				transform: rotate(26deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 11.8%;
+				top: 58.2%;
+				left: 29.2%;
+				transform: rotate(92deg);
+				opacity: 1;
+			}
+			66% {
+				width: 11.8%;
+				top: 58.2%;
+				left: 29.2%;
+				transform: rotate(92deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 18.6%;
+				top: 63%;
+				left: 17.9%;
+				transform: rotate(81deg);
+				opacity: 1;
+			}
+			100% {
+				width: 18.6%;
+				top: 63%;
+				left: 17.9%;
+				transform: rotate(81deg);
+			}
+		}
+
+		.line-yellow-2 {
+			width: 20%;
+			top: 71.8%;
+			left: 28%;
+			transform: rotate(-18deg);
+			animation: lineYellow2Animation 6s ease-in infinite;
+		}
+		@keyframes lineYellow2Animation {
+			0% {
+				width: 20%;
+				top: 71.8%;
+				left: 28%;
+				transform: rotate(-18deg);
+				opacity: 1;
+			}
+			3.5% {
+				width: 13%;
+				transform: rotate(25deg);
+				opacity: 0.9;
+			}
+			4% {
+				width: 13%;
+				top: 67.8%;
+				left: 36%;
+				transform: rotate(42deg);
+				opacity: 1;
+			}
+			33% {
+				width: 13%;
+				top: 67.8%;
+				left: 36%;
+				transform: rotate(42deg);
+			}
+			33.1% {
+				width: 13%;
+				transform: rotate(40deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 16%;
+				top: 73.8%;
+				left: 33%;
+				transform: rotate(40deg);
+				opacity: 1;
+			}
+			66% {
+				width: 16%;
+				top: 73.8%;
+				left: 33%;
+				transform: rotate(40deg);
+			}
+			69.2% {
+				transform: rotate(-18deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 20%;
+				top: 71.8%;
+				left: 28%;
+				transform: rotate(-18deg);
+				opacity: 1;
+			}
+			100% {
+				width: 20%;
+				top: 71.8%;
+				left: 28%;
+				transform: rotate(-18deg);
+			}
+		}
+
+		.line-yellow-3 {
+			width: 12.4%;
+			top: 67.3%;
+			left: 47%;
+			transform: rotate(0deg);
+			animation: lineYellow3Animation 6s ease-in infinite;
+		}
+		@keyframes lineYellow3Animation {
+			0% {
+				width: 12.4%;
+				top: 67.3%;
+				left: 47%;
+				transform: rotate(0deg);
+				opacity: 1;
+			}
+			3.5% {
+				transform: rotate(-22deg);
+				opacity: 0.9;
+			}
+			4% {
+				width: 12.4%;
+				top: 70.7%;
+				left: 47%;
+				transform: rotate(-22deg);
+				opacity: 1;
+			}
+			33% {
+				width: 12.4%;
+				top: 70.7%;
+				left: 47%;
+				transform: rotate(-22deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 19%;
+				top: 78.7%;
+				left: 47%;
+				transform: rotate(-10deg);
+				opacity: 1;
+			}
+			66% {
+				width: 19%;
+				top: 78.7%;
+				left: 47%;
+				transform: rotate(-10deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 12.4%;
+				top: 67.3%;
+				left: 47%;
+				transform: rotate(0deg);
+				opacity: 1;
+			}
+			100% {
+				width: 12.4%;
+				top: 67.3%;
+				left: 47%;
+				transform: rotate(0deg);
+			}
+		}
+
+		.line-yellow-4 {
+			width: 28.3%;
+			top: 47.6%;
+			left: 47%;
+			transform: rotate(-81deg);
+			animation: lineYellow4Animation 6s ease-in infinite;
+		}
+		@keyframes lineYellow4Animation {
+			0% {
+				width: 28.3%;
+				top: 47.6%;
+				left: 47%;
+				transform: rotate(-81deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 32%;
+				top: 44.9%;
+				left: 46.4%;
+				transform: rotate(-78deg);
+				opacity: 1;
+			}
+			33% {
+				width: 32%;
+				top: 44.9%;
+				left: 46.4%;
+				transform: rotate(-78deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 29%;
+				top: 56.9%;
+				left: 46.6%;
+				transform: rotate(-109deg);
+				opacity: 1;
+			}
+			66% {
+				width: 29%;
+				top: 56.9%;
+				left: 46.6%;
+				transform: rotate(-109deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 28.3%;
+				top: 47.6%;
+				left: 47%;
+				transform: rotate(-81deg);
+				opacity: 1;
+			}
+			100% {
+				width: 28.3%;
+				top: 47.6%;
+				left: 47%;
+				transform: rotate(-81deg);
+			}
+		}
+
+		.line-yellow-5 {
+			width: 34.9%;
+			top: 24.7%;
+			left: 28.8%;
+			transform: rotate(7deg);
+			animation: lineYellow5Animation 6s ease-in infinite;
+		}
+		@keyframes lineYellow5Animation {
+			0% {
+				width: 34.9%;
+				top: 24.7%;
+				left: 28.8%;
+				transform: rotate(7deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 33.9%;
+				top: 24%;
+				left: 31.8%;
+				transform: rotate(-5deg);
+				opacity: 1;
+			}
+			33% {
+				width: 33.9%;
+				top: 24%;
+				left: 31.8%;
+				transform: rotate(-5deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 16.1%;
+				top: 27.5%;
+				left: 43.8%;
+				transform: rotate(56deg);
+				opacity: 1;
+			}
+			66% {
+				width: 16.1%;
+				top: 27.5%;
+				left: 43.8%;
+				transform: rotate(56deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 34.9%;
+				top: 24.7%;
+				left: 28.8%;
+				transform: rotate(7deg);
+				opacity: 1;
+			}
+			100% {
+				width: 34.9%;
+				top: 24.7%;
+				left: 28.8%;
+				transform: rotate(7deg);
+			}
+		}
+
+		.line-yellow-6 {
+			width: 20%;
+			top: 36%;
+			left: 17.3%;
+			transform: rotate(99deg);
+			animation: lineYellow6Animation 6s ease-in infinite;
+		}
+		@keyframes lineYellow6Animation {
+			0% {
+				width: 20%;
+				top: 36%;
+				left: 17.3%;
+				transform: rotate(99deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 20%;
+				top: 38%;
+				left: 16.5%;
+				transform: rotate(125deg);
+				opacity: 1;
+			}
+			33% {
+				width: 20%;
+				top: 38%;
+				left: 16.5%;
+				transform: rotate(125deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 26%;
+				top: 34%;
+				left: 28.4%;
+				transform: rotate(119deg);
+				opacity: 1;
+			}
+			66% {
+				width: 26%;
+				top: 34%;
+				left: 28.4%;
+				transform: rotate(119deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 20%;
+				top: 36%;
+				left: 17.3%;
+				transform: rotate(99deg);
+				opacity: 1;
+			}
+			100% {
+				width: 20%;
+				top: 36%;
+				left: 17.3%;
+				transform: rotate(99deg);
+			}
+		}
+
+		.line-violet-1 {
+			width: 31.3%;
+				top: 49%;
+				left: 16.3%;
+				transform: rotate(90deg);
+				opacity: 1;
+			animation: lineViolet1Animation 6s ease-in infinite;
+		}
+		@keyframes lineViolet1Animation {
+			0% {
+				width: 31.3%;
+				top: 49%;
+				left: 16.3%;
+				transform: rotate(90deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 31.7%;
+				top: 44.2%;
+				left: 16.2%;
+				transform: rotate(78deg);
+				opacity: 1;
+			}
+			33% {
+				width: 31.7%;
+				top: 44.2%;
+				left: 16.2%;
+				transform: rotate(78deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 18.7%;
+				top: 58.4%;
+				left: 18.8%;
+				transform: rotate(42deg);
+				opacity: 1;
+			}
+			66% {
+				width: 18.7%;
+				top: 58.4%;
+				left: 18.8%;
+				transform: rotate(42deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 31.3%;
+				top: 49%;
+				left: 16.3%;
+				transform: rotate(90deg);
+				opacity: 1;
+			}
+			100% {
+				width: 31.3%;
+				top: 49%;
+				left: 16.3%;
+				transform: rotate(90deg);
+			}
+		}
+
+		.line-violet-2 {
+			width: 15.5%;
+				top: 72.7%;
+				left: 32%;
+				transform: rotate(7deg);
+			animation: lineViolet2Animation 6s ease-in infinite;
+		}
+		@keyframes lineViolet2Animation {
+			0% {
+				width: 15.5%;
+				top: 72.7%;
+				left: 32%;
+				transform: rotate(7deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 27.7%;
+				top: 69.3%;
+				left: 35%;
+				transform: rotate(7deg);
+				opacity: 1;
+			}
+			33% {
+				width: 27.7%;
+				top: 69.3%;
+				left: 35%;
+				transform: rotate(7deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 28%;
+				top: 69.5%;
+				left: 34.8%;
+				transform: rotate(7deg);
+				opacity: 1;
+			}
+			66% {
+				width: 28%;
+				top: 69.5%;
+				left: 34.8%;
+				transform: rotate(7deg);
+				transform: rotate(5deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 15.5%;
+				top: 72.7%;
+				left: 32%;
+				transform: rotate(7deg);
+				opacity: 1;
+			}
+			100% {
+				width: 15.5%;
+				top: 72.7%;
+				left: 32%;
+				transform: rotate(7deg);
+			}
+		}
+
+		.line-violet-3 {
+			width: 12.7%;
+			top: 68%;
+			left: 45.4%;
+			transform: rotate(-44deg);
+			animation: lineViolet3Animation 6s ease-in infinite;
+		}
+		@keyframes lineViolet3Animation {
+			0% {
+				width: 12.7%;
+				top: 68%;
+				left: 45.4%;
+				transform: rotate(-44deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 15.7%;
+				top: 61%;
+				left: 53.3%;
+				transform: rotate(-102deg);
+				opacity: 1;
+			}
+			33% {
+				width: 15.7%;
+				top: 61%;
+				left: 53.3%;
+				transform: rotate(-102deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 16.5%;
+				top: 61%;
+				left: 57.7%;
+				transform: rotate(-67deg);
+			}
+			66% {
+				width: 16.5%;
+				top: 61%;
+				left: 57.7%;
+				transform: rotate(-67deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 12.7%;
+				top: 68%;
+				left: 45.4%;
+				transform: rotate(-44deg);
+				opacity: 1;
+			}
+			100% {
+				width: 12.7%;
+				top: 68%;
+				left: 45.4%;
+				transform: rotate(-44deg);
+			}
+		}
+
+		.line-violet-4 {
+			width: 15.2%;
+			top: 55.6%;
+			left: 54.8%;
+			transform: rotate(-34deg);
+			animation: lineViolet4Animation 6s ease-in infinite;
+		}
+		@keyframes lineViolet4Animation {
+			0% {
+				width: 15.2%;
+				top: 55.6%;
+				left: 54.8%;
+				transform: rotate(-34deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 16.2%;
+				top: 38.8%;
+				left: 53.2%;
+				transform: rotate(-77deg);
+				opacity: 1;
+			}
+			33% {
+				width: 16.2%;
+				top: 38.8%;
+				left: 53.2%;
+				transform: rotate(-77deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 20.2%;
+				top: 36.2%;
+				left: 57.2%;
+				transform: rotate(-101deg);
+				opacity: 1;
+			}
+			66% {
+				width: 20.2%;
+				top: 36.2%;
+				left: 57.2%;
+				transform: rotate(-101deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 15.2%;
+				top: 55.6%;
+				left: 54.8%;
+				transform: rotate(-34deg);
+				opacity: 1;
+			}
+			100% {
+				width: 15.2%;
+				top: 55.6%;
+				left: 54.8%;
+				transform: rotate(-34deg);
+			}
+		}
+
+		.line-violet-5 {
+			width: 40.1%;
+			top: 38%;
+			left: 30%;
+			transform: rotate(23deg);
+			animation: lineViolet5Animation 6s ease-in infinite;
+		}
+		@keyframes lineViolet5Animation {
+			0% {
+				width: 40.1%;
+				top: 38%;
+				left: 30%;
+				transform: rotate(23deg);
+				opacity: 1;
+			}
+			3.5% {
+				opacity: 0.9;
+			}
+			4% {
+				width: 34.1%;
+				top: 24.7%;
+				left: 29.1%;
+				transform: rotate(6deg);
+				opacity: 1;
+			}
+			33% {
+				width: 34.1%;
+				top: 24.7%;
+				left: 29.1%;
+				transform: rotate(6deg);
+			}
+			36.5% {
+				opacity: 0.9;
+			}
+			37% {
+				width: 48.3%;
+				top: 35.9%;
+				left: 19.3%;
+				transform: rotate(-23deg);
+				opacity: 1;
+			}
+			66% {
+				width: 48.3%;
+				top: 35.9%;
+				left: 19.3%;
+				transform: rotate(-23deg);
+			}
+			69.5% {
+				opacity: 0.9;
+			}
+			70% {
+				width: 40.1%;
+				top: 38%;
+				left: 30%;
+				transform: rotate(23deg);
+				opacity: 1;
+			}
+			100% {
+				width: 40.1%;
+				top: 38%;
+				left: 30%;
+				transform: rotate(23deg);
+			}
+		}
+
+	</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
